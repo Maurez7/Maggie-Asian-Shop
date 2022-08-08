@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(253, 0, 139);
+}
+header #Logo a img {
+  width: 80px;
+  height: 80px;
+}
+header ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+header ul #Buscador {
+  padding: 10px 0;
+}
+header ul #Noticias {
+  padding: 15px 0;
+}
+header ul #Buscador input {
+  width: 600px;
+}
+header ul #Buscador button {
+  background-color: aqua;
+  color: black;
+}
+header ul #Buscador button:hover {
+  background-color: white;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+header nav ul li {
+  padding: 0 5px;
+}
+header nav ul li #Logo_gps {
+  height: 50px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(235, 232, 232);
+}
+header nav ul li a:hover {
+  color: white;
+  transition: 2s;
+}
+header nav #Destino a {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+header nav #Destino a #Envio_letras {
+  display: flex;
+  flex-direction: column;
+}
+
+main h3 {
+  padding-left: 30px;
+}
+main h5 {
+  height: 40px;
+}
+main h6 {
+  height: 40px;
+}
+main #Textos {
+  text-align: center;
+}
+main #Textos_inf {
+  opacity: 0;
+  height: 15px;
+}
+main #Textos_inf:hover {
+  opacity: 1;
+  height: auto;
+}
+main #Botones {
+  margin: 0 auto;
+  background-color: white;
+}
+main #Botones:hover {
+  background-color: black;
+  color: white;
+}
+main #Lista_Snacks ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+main #Lista_Snacks ul li {
+  justify-content: space-around;
+}
+
+footer {
+  background-color: rgb(253, 0, 139);
+}
+footer #Info_opciones {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  padding: 60px 0;
+}
+footer #Info_opciones svg {
+  width: 100px;
+  height: 50px;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer #footer_2 {
+  display: flex;
+  justify-content: space-around;
+}
+footer #Informacion_footer {
+  display: flex;
+  flex-direction: column;
+}
+footer #Informacion_footer li {
+  list-style: none;
+}
+footer #Informacion_footer li a {
+  text-decoration: none;
+  color: white;
+}
+footer #Redes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+footer #Redes li {
+  padding: 0 5px;
+}
+footer #Redes li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=Productos.css.map */
