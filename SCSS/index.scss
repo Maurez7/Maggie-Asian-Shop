@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(253, 0, 139);
+    #Logo{
+        a{
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+    ul{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        #Buscador{
+            padding: 10px 0;
+        }
+        #Noticias{
+            padding: 15px 0;
+        }
+    #Buscador{
+        input{
+            width: 600px;
+        }
+        button{
+            background-color: aqua;
+            color: black;
+        }
+        button:hover{
+            background-color: white;
+        }
+    }
+    }
+    nav{
+        display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            li{
+                padding: 0 5px;
+                #Logo_gps{
+                    height: 50px;
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(235, 232, 232);
+                }
+                a:hover{
+                    color:white;
+                    transition: 2s;
+                }
+            }
+        }
+        #Destino{
+            a{
+                color: white;
+                display: flex;
+                flex-direction: row;
+                text-decoration: none;
+                #Envio_letras{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+main{
+    #Subtitulos{
+        padding-left: 65px;
+    }
+    #Nuevos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        padding: 20px 0;
+        #Cuerpo{
+            width: 300px;
+            box-shadow: 2px 2px 2px 2px black;
+            background-color: white;
+        }
+        img{
+            width: 250px;
+            height: 250px;
+        }
+        #Boton{
+            width: 200px;
+            margin: 10px auto;
+            border: 2px solid black;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: white;
+            }
+        }
+        #Boton:hover{
+            background-color: black;
+        }
+    }
+    #Recomendado{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        padding: 15px 0;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        #Cuerpo_2{
+            width: 200px;
+            box-shadow: 2px 2px 2px 2px black;
+            background-color: white;
+        }
+        #Boton{
+            width: 150px;
+            margin: 10px auto;
+            border: 1px solid black;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: white;
+            }
+        }
+        #Boton:hover{
+            background-color: black;
+        }
+    }
+}
+footer{
+    background-color: rgb(253, 0, 139);
+    #Info_opciones{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+        padding: 60px 0;
+        svg{
+            width: 100px;
+            height: 50px;
+        }
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #footer_2{
+        display: flex;
+        justify-content: space-around;
+    }
+    #Informacion_footer{
+        display: flex;
+        flex-direction: column;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    #Redes{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        li{
+            padding: 0 5px;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
