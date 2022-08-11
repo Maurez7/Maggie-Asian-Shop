@@ -13,8 +13,8 @@ body{
 }
 header{
     img{
-        width: 100px;
-        height: 100px;
+        width: 500px;
+        height: 1000px;
     }
 }
 main{
@@ -61,5 +61,12 @@ main{
         color: white;
         text-align: center;
         font-size: 25px;
+
+        .ayudaLogin{
+            text-decoration: none;
+            color: white;
+        }
     }
+
+    
 }

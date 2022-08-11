@@ -1,14 +1,11 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
 }
 
-@font-face {
-    font-family: Font_A;
-    src: url(Fuentes/Royalacid_o.ttf);
-}
 body {
-  background: linear-gradient(rgb(13, 202, 216), rgb(253, 10, 172));
+  background: -webkit-gradient(linear, left top, left bottom, from(#0dcad8), to(#fd0aac));
+  background: linear-gradient(#0dcad8, #fd0aac);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,54 +15,64 @@ header img {
   height: 100px;
 }
 
+main {
+  padding: 30px 0;
+}
+
 main h1 {
   color: white;
   text-align: center;
-  padding: 3%;
+  padding-bottom: 10px;
 }
+
 main #Registro {
-  background: linear-gradient(rgb(253, 10, 172), rgb(13, 202, 216));
+  background: -webkit-gradient(linear, left top, left bottom, from(#fd0aac), to(#0dcad8));
+  background: linear-gradient(#fd0aac, #0dcad8);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 45px;
+  padding: 10px;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
   margin: 0 auto;
 }
+
 main #Registro #Cuenta {
   color: white;
   font-size: 20px;
 }
+
 main #Registro #Insertar {
   width: 600px;
   height: 35px;
   border-radius: 5px;
 }
+
 main #Registro br {
   padding: 15px;
 }
+
 main #Registro button {
   background-color: rgba(167, 164, 164, 0.986);
   height: 50px;
   width: 160px;
   color: white;
 }
+
 main #Registro a {
   text-decoration: none;
   color: white;
 }
+
 main #Ayuda {
   padding: 50px;
   color: white;
   text-align: center;
   font-size: 25px;
 }
-main .ayudaLogin {
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-
-/*# sourceMappingURL=Login.css.map */
+/*# sourceMappingURL=Registro.css.map */
